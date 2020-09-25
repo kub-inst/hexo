@@ -2,98 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/lib/three/renovate.json</loc>
+    <loc>https://yanchiyueh.vercel.app/lib/three/renovate.json</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/lib/three/package.json</loc>
+    <loc>https://yanchiyueh.vercel.app/lib/three/package.json</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/lib/three/README.html</loc>
+    <loc>https://yanchiyueh.vercel.app/lib/three/README.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/resource/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/resource/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/tags/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/categories/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/25/test1/</loc>
+    <loc>https://yanchiyueh.vercel.app/2020/09/25/test1/</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/25/test/</loc>
+    <loc>https://yanchiyueh.vercel.app/2020/09/25/test/</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/thanks/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/thanks/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/12/hello-world/</loc>
+    <loc>https://yanchiyueh.vercel.app/2020/09/12/hello-world/</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/contact_me/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/contact_me/index.html</loc>
     
     <lastmod>2020-09-19</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/id/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/id/index.html</loc>
     
     <lastmod>2020-09-19</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/bookshelf/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/bookshelf/index.html</loc>
     
     <lastmod>2020-09-19</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://yanchiyueh.vercel.app/about/index.html</loc>
     
     <lastmod>2020-09-19</lastmod>
     
@@ -101,7 +101,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://yanchiyueh.vercel.app/</loc>
     <lastmod>2020-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -111,14 +111,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/test/</loc>
+    <loc>https://yanchiyueh.vercel.app/categories/test/</loc>
     <lastmod>2020-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/test/testfile/</loc>
+    <loc>https://yanchiyueh.vercel.app/categories/test/testfile/</loc>
     <lastmod>2020-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
