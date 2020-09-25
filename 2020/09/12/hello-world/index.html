@@ -17,18 +17,18 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="Hello Blog !">
 <meta property="og:url" content="http://example.com/2020/09/12/hello-world/index.html">
 <meta property="og:site_name" content="YanChiYueh">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-09-12T08:41:40.163Z">
-<meta property="article:modified_time" content="2020-09-12T08:41:40.163Z">
+<meta property="article:modified_time" content="2020-09-25T03:01:05.722Z">
 <meta property="article:author" content="YanChiYueh">
 <meta name="twitter:card" content="summary">
 
@@ -45,10 +45,19 @@
   };
 </script>
 
-  <title>Hello World | YanChiYueh</title>
+  <title>Hello Blog ! | YanChiYueh</title>
   
 
 
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?f8bd89853e4fcf63a03844975215b56c";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -103,6 +112,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -149,19 +159,41 @@
   </li>
         <li class="menu-item menu-item-contact_me">
 
-    <a href="/contact_me" rel="section"><i class="fa fa-envelope fa-fw"></i>联系我</a>
+    <a href="/contact_me" rel="section"><i class="fa fa-at fa-fw"></i>联系我</a>
 
   </li>
-        <li class="menu-item menu-item-findme">
-
-    <a href="/findme" rel="section"><i class="fa fa-at fa-fw"></i>findme</a>
-
-  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -198,7 +230,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          Hello Blog !
         </h1>
 
         <div class="post-meta">
@@ -210,6 +242,13 @@
 
               <time title="创建时间：2020-09-12 16:41:40" itemprop="dateCreated datePublished" datetime="2020-09-12T16:41:40+08:00">2020-09-12</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-25 11:01:05" itemprop="dateModified" datetime="2020-09-25T11:01:05+08:00">2020-09-25</time>
+              </span>
 
           
 
@@ -321,6 +360,20 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/kub-inst" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;kub-inst" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/345631631" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;345631631" rel="noopener" target="_blank"><i class=" fa-fw"></i>Bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/222926" title="luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;222926" rel="noopener" target="_blank"><i class=" fa-fw"></i>luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/yean-46" title="Zhihu → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;yean-46" rel="noopener" target="_blank"><i class=" fa-fw"></i>Zhihu</a>
+      </span>
+  </div>
 
 
 
@@ -349,7 +402,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">YanChiYueh</span>
 </div>
-  <div class="powered-by">powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  <div class="powered-by">powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 
   </div>
 
         
@@ -386,6 +439,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
