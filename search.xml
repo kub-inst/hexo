@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>每日一证 开始！</title>
+    <url>/2020/09/26/PSEDRM/</url>
+    <content><![CDATA[<p><strong> “不积跬步无以至千里，不积小流无以成江海” </strong><br>特开此<strong> “每日一证” </strong>，一来积累所学，二来积累灵感，三来自勉钻研数学<br>可能是很水的题，若大佬前来观赏见谅！</p>
+]]></content>
+      <categories>
+        <category>每日一证</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>每日一证20200926</title>
+    <url>/2020/09/25/PSED20200926/</url>
+    <content><![CDATA[<p><strong> 每日一证，从这里开始！ </strong><br>今天先证明一个水题</p>
+<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>同一平面内，若两条直线垂直于同一条直线，那么这两条直线平行或为同一条直线。</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p><strong> 如图 </strong><br><img src="/2020/09/25/PSED20200926/PSED20200926.png" alt><br>已知直线l1，直线l2、l3为两条直线且l1、l2分别⊥l1与点B、A<br>C为直线l2上一点且在l1上方，D为直线l3上一点且在l1下方<br><strong> 求证 </strong>：l2与l3为同一条直线或l2∥l3<br><strong> 证明 </strong>：<br>若A,B两点重合<br>∵“同一平面内过一点有且只有一条直线与一直直线垂直”<br>∴l2,l3为同一条直线<br>若A,B两点不重合<br>∵l2,l3⊥l1<br>∴∠CBA=∠BAD=90°<br>∴l2∥l3<br><strong> Q.E.D </strong></p>
+<p>注：这么好的定理，课内居然要写那么多过程QAQ</p>
+]]></content>
+      <categories>
+        <category>每日一证</category>
+        <category>几何</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Hello Blog !</title>
     <url>/2020/09/12/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -13,22 +35,5 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2020/09/25/test/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>test</category>
-        <category>testfile</category>
-      </categories>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2020/09/25/test1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
   </entry>
 </search>
