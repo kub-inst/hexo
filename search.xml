@@ -20,27 +20,6 @@
       </tags>
   </entry>
   <entry>
-    <title>每日一证20200927</title>
-    <url>/2020/09/27/PSED20200927/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>昨天写每日一证时发现《原本》中居然没有证一些基本命题<br>比方说用到的“过一点有且只有一条直线与已知直线垂直”<br>虽然这真的易证，但是我有时间还是会将部分命题的</p>
-<h2 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>将两条临边相等的四边形称为<del>等邻边四边形</del></p>
-<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>等邻边四边形中，总有一组对角相等</p>
-<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p><strong>如图</strong>（明天再补QAQ）<br><strong>已知</strong>：四边形ABCD为等邻边四边形，AB=AD,CB=CD<br><strong>求证</strong>：∠B=∠D<br><strong>证明*：连接BC<br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD+∠CBD=∠CDB+∠ADB<br>即∠ABC=∠CDA
-</strong>Q.E.D**</p>
-<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>接下来研究一段时间这种四边形<br>又是一道水题（逃</p>
-]]></content>
-      <categories>
-        <category>数学</category>
-        <category>每日一证</category>
-        <category>几何</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-        <tag>每日一证</tag>
-        <tag>几何</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>每日一证 开始！——暨说明</title>
     <url>/2020/09/26/PSEDRM/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><strong> “不积跬步无以至千里，不积小流无以成江海” </strong><br>特开此<strong> “每日一证” </strong>，一来积累所学，二来积累灵感，三来自勉钻研数学<br>可能是很水的题，若大佬前来观赏见谅！</p>
@@ -53,6 +32,26 @@
         <category>数学</category>
         <category>每日一证</category>
       </categories>
+  </entry>
+  <entry>
+    <title>每日一证20200927</title>
+    <url>/2020/09/27/PSED20200927/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>昨天写每日一证时发现《原本》中居然没有证一些基本命题<br>比方说用到的“过一点有且只有一条直线与已知直线垂直”<br>虽然这真的易证，但我有时间还是会将此类命题的证明并放在blog上方便阅览</p>
+<h2 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>将两条临边相等的四边形称为<del>等邻边四边形</del></p>
+<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>等邻边四边形中，总有一组对角相等</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p><strong>如图</strong>（明天再补QAQ）<br><strong>已知</strong>：四边形ABCD为等邻边四边形，AB=AD,CB=CD<br><strong>求证</strong>：∠B=∠D<br><strong>证明</strong>：连接BC<br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD+∠CBD=∠CDB+∠ADB<br>即∠ABC=∠CDA<br><strong>Q.E.D</strong></p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>接下来研究一段时间这种四边形<br>又是一道水题（逃</p>
+]]></content>
+      <categories>
+        <category>数学</category>
+        <category>每日一证</category>
+        <category>几何</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>每日一证</tag>
+        <tag>几何</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello Blog !</title>
