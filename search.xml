@@ -20,26 +20,13 @@
       </tags>
   </entry>
   <entry>
-    <title>每日一证 开始！——暨说明</title>
-    <url>/2020/09/26/PSEDRM/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><strong> “不积跬步无以至千里，不积小流无以成江海” </strong><br>特开此<strong> “每日一证” </strong>，一来积累所学，二来积累灵感，三来自勉钻研数学<br>可能是很水的题，若大佬前来观赏见谅！</p>
-<h3 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h3><p>文件统一命名为每日一证+日期，方便管理<br>同时，本blog有搜索功能，可以通过文章内容搜索文章</p>
-<h3 id="更新频率"><a href="#更新频率" class="headerlink" title="更新频率"></a>更新频率</h3><p>虽说是每日一证，但是可能不能做到每日更新<br>届时可能以其他方式补上，如一日两证<br>碰上忙时停更</p>
-<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>命题可以是非已经作为体系内重要/常见命题的任意命题<br>欢迎投稿，只要我会做^_^<br>可以通过我的<a href="https://yanchiyueh.vercel.app/contact_me#%E9%82%AE%E7%AE%B1">邮箱</a>来联系我</p>
-<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p>证明都会有引用<br>部分引用的会放在blog并用超链接方便查阅<br>若发现伪证欢迎挑刺！<br>可以通过我的<a href="https://yanchiyueh.vercel.app/contact_me#%E9%82%AE%E7%AE%B1">邮箱</a>来联系我</p>
-]]></content>
-      <categories>
-        <category>数学</category>
-        <category>每日一证</category>
-      </categories>
-  </entry>
-  <entry>
     <title>每日一证20200927</title>
     <url>/2020/09/27/PSED20200927/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>昨天写每日一证时发现《原本》中居然没有证一些基本命题<br>比方说用到的“过一点有且只有一条直线与已知直线垂直”<br>虽然这真的易证，但我有时间还是会将此类命题的证明并放在blog上方便阅览</p>
-<h2 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>将两条临边相等的四边形称为<del>等邻边四边形</del></p>
-<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>等邻边四边形中，总有一组对角相等</p>
-<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p><strong>如图</strong>（明天再补QAQ）<br><strong>已知</strong>：四边形ABCD为等邻边四边形，AB=AD,CB=CD<br><strong>求证</strong>：∠B=∠D<br><strong>证明</strong>：连接BC<br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD+∠CBD=∠CDB+∠ADB<br>即∠ABC=∠CDA<br><strong>Q.E.D</strong></p>
+<h2 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>将两条临边相等的四边形称为<strong>筝形</strong></p>
+<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>筝形中，总有一组对角相等</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><h4 id="原证明"><a href="#原证明" class="headerlink" title="原证明"></a>原证明</h4><p><strong>如图</strong>：<br><img src="/2020/09/27/PSED20200927/PSED20200927.png" alt="图一"><br><strong>已知</strong>：四边形ABCD为筝形，AB=AD,CB=CD<br><strong>求证</strong>：∠B=∠D<br><strong>证明</strong>：连接BC<br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD+∠CBD=∠CDB+∠ADB<br>即∠ABC=∠CDA<br><del><strong>Q.E.D</strong></del></p>
+<h4 id="20200928补充证明"><a href="#20200928补充证明" class="headerlink" title="20200928补充证明"></a>20200928补充证明</h4><p>昨天的证明没有考虑到<strong>凹四边形</strong>啊……<br>补充一下<br><strong>如图</strong>：<br><img src="/2020/09/27/PSED20200927/geogebra-export.png" alt="图二"><br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD-∠CBD=∠CDB-∠ADB<br>即∠ABC=∠CDA<br><strong>Q.E.D.</strong></p>
 <h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>接下来研究一段时间这种四边形<br>又是一道水题（逃</p>
 ]]></content>
       <categories>
@@ -52,6 +39,38 @@
         <tag>每日一证</tag>
         <tag>几何</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>每日一证20200928</title>
+    <url>/2020/09/28/PSED20200928/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>发现这四边形原来有名字，叫<a href="https://baike.baidu.com/item/%E7%AD%9D%E5%BD%A2/9673238">筝形</a><br>于是我把昨天的“等邻边四边形”也都改了<br>今天继续研究“<a href="https://yanchiyueh.vercel.app/2020/09/27/PSED20200927/#%E5%AE%9A%E4%B9%89">筝形</a>”！</p>
+<h1 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h1><h2 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h2><p>筝形中，相等两角的端点所连成的对角线被另一条对角线所在直线垂直平分</p>
+<h2 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h2><p><strong>已知</strong>：四边形ABCD为筝形，AB=AD,CB=CD，AC为直线，连接BD<br><strong>求证</strong>：直线AD为线段BD中垂线<br><strong>证明如下</strong>：<br>∵AB=AD，CB=CD<br>∴A，C两点均在线段BD中垂线上<br>∴直线AC为线段BD中垂线<br>补充一下两张图：<br><img src="/2020/09/28/PSED20200928/geogebra-export.png" alt="图一"><br><img src="/2020/09/28/PSED20200928/geogebra-export2.png" alt="图二"><br><strong>Q.E.D.</strong>（逃</p>
+]]></content>
+      <categories>
+        <category>数学</category>
+        <category>每日一证</category>
+        <category>几何</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>每日一证</tag>
+        <tag>几何</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日一证 开始！——暨说明</title>
+    <url>/2020/09/26/PSEDRM/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><strong> “不积跬步无以至千里，不积小流无以成江海” </strong><br>特开此<strong> “每日一证” </strong>，一来积累所学，二来积累灵感，三来自勉钻研数学<br>可能是很水的题，若大佬前来观赏见谅！</p>
+<h3 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h3><p>文件统一命名为每日一证+日期，方便管理<br>同时，本blog有搜索功能，可以通过文章内容搜索文章</p>
+<h3 id="更新频率"><a href="#更新频率" class="headerlink" title="更新频率"></a>更新频率</h3><p>虽说是每日一证，但是可能不能做到每日更新<br>届时可能以其他方式补上，如一日两证<br>碰上忙时停更</p>
+<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>命题可以是非已经作为体系内重要/常见命题的任意命题<br>欢迎投稿，只要我会做^_^<br>可以通过我的<a href="https://yanchiyueh.vercel.app/contact_me#%E9%82%AE%E7%AE%B1">邮箱</a>来联系我</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p>证明都会有引用<br>部分引用的会放在blog并用超链接方便查阅<br>若发现伪证欢迎挑刺！<br>可以通过我的<a href="https://yanchiyueh.vercel.app/contact_me#%E9%82%AE%E7%AE%B1">邮箱</a>来联系我</p>
+]]></content>
+      <categories>
+        <category>数学</category>
+        <category>每日一证</category>
+      </categories>
   </entry>
   <entry>
     <title>Hello Blog !</title>
