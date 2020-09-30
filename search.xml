@@ -33,11 +33,13 @@
         <category>数学</category>
         <category>每日一证</category>
         <category>几何</category>
+        <category>筝形</category>
       </categories>
       <tags>
         <tag>数学</tag>
         <tag>每日一证</tag>
         <tag>几何</tag>
+        <tag>筝形</tag>
       </tags>
   </entry>
   <entry>
@@ -51,11 +53,13 @@
         <category>数学</category>
         <category>每日一证</category>
         <category>几何</category>
+        <category>筝形</category>
       </categories>
       <tags>
         <tag>数学</tag>
         <tag>每日一证</tag>
         <tag>几何</tag>
+        <tag>筝形</tag>
       </tags>
   </entry>
   <entry>
@@ -85,5 +89,37 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>每日一证20200930</title>
+    <url>/2020/09/30/psed20200930/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>昨天被OI大佬遊巨拉去写项目了（居然还有人找我这个蒟蒻写项目），就鸽了<del>咕咕咕</del><br>筝形暂时没想到有啥可以证的，先停更一段时间<br>接下来几天要出去玩，估计没法碰电脑，得停更了</p>
+<h1 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h1><h2 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h2><p>Rt△的三个顶点关于各自对边的对称点所作的△的面积为该Rt△的3倍</p>
+<h2 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h2><p><strong>如图</strong>：<br><img src="/2020/09/30/psed20200930/PSED20200930.png" alt><br><strong>已知</strong>:在rt△ABO中，∠O=90°，A’,A关于BO对称，B,B’关于AO对称，O,O’关于AB对称<br><strong>求证</strong>:S△A’B’O’=3S△ABO<br><strong>证明如下</strong>:<br>连接A’O,OB’,OO’<br>线段OO’交线段AB于点C<br>易得△ABO≌△A’B’O<br>∴S△ABO=S△A’B’O<br>∴原命题2S△ABC=S△A’OO’+S△OO’B’<br>如图，以O为原点，OA为x轴正方向，OB为y轴正方向，建立平面直角坐标系<br>设A(a,0),B(0,b)<br>$∴AB:y=- \frac {b}{a} +b $</p>
+<p>由对称及O(0,0)得:<br>$OO’: y= \frac ab x$</p>
+<p>$∴C(\frac{ab^2}{a^2+b^2},\frac{a^2b}{a^2+b^2})$</p>
+<p>$∴O’(\frac{2ab^2}{a^2+b^2},\frac{2a^2b}{a^2+b^2})$</p>
+<p>$∴S△A’OO’+S△OO’B’$</p>
+<p>$=a \bullet \frac{\frac{2a^2b}{(a^2+b^2)}}{2}+\frac{b \bullet \frac{2ab^2}{a^2+b^2}}{2} $</p>
+<p>$=\frac{a^3b}{a^2+b^2}+ \frac{b^3a}{a^2+b^2} $</p>
+<p>$=\frac{ab\bullet(a^2+b^2)}{a^2+b^2} $</p>
+<p>$=ab$</p>
+<p>$=2S△ABO$</p>
+<p><strong>Q.E.D</strong></p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>这是一道出自咱们学校作业的题<br><del>这都看不出来我果然太菜了</del><br>没看出几何解便建了个系了事<br>建系果然万能！</p>
+]]></content>
+      <categories>
+        <category>数学</category>
+        <category>每日一证</category>
+        <category>几何</category>
+        <category>解析几何</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>每日一证</tag>
+        <tag>几何</tag>
+        <tag>解析几何</tag>
+        <tag>建系</tag>
+      </tags>
   </entry>
 </search>
