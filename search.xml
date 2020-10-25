@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数学学科码</title>
+    <url>/2020/10/25/MathCode/</url>
+    <content><![CDATA[<p>随需更新</p>
+<h1 id="几何学-Geometry"><a href="#几何学-Geometry" class="headerlink" title="几何学 Geometry"></a>几何学 Geometry</h1><p><strong>欧几里得平面几何</strong>：EP(Euclid Planimetry)<br><strong>欧几里得立体几何</strong>：ES(Euclid Solid-geometry)<br><strong>解析几何/坐标几何</strong>：AG(Analytic Geometry)</p>
+<h1 id="代数-Algebra"><a href="#代数-Algebra" class="headerlink" title="代数 Algebra"></a>代数 Algebra</h1><h2 id="初等代数-Elementary-Algebra"><a href="#初等代数-Elementary-Algebra" class="headerlink" title="初等代数 Elementary Algebra"></a>初等代数 Elementary Algebra</h2><p><strong>代数方程</strong>：AE(Algebraic Equation)<br><strong>不等式</strong>: IN(inequality)</p>
+<h1 id="微积分学-Calculus"><a href="#微积分学-Calculus" class="headerlink" title="微积分学 Calculus"></a>微积分学 Calculus</h1><p><strong>极限</strong>：LM（Limit）<br><strong>微分学</strong>：DC(Differential Calculus)<br><strong>积分学</strong>：IC(integral calculus)</p>
+<h1 id="分析学-Analysis"><a href="#分析学-Analysis" class="headerlink" title="分析学 Analysis"></a>分析学 Analysis</h1><p><strong>实分析</strong>：RA(Real Analysis) </p>
+]]></content>
+      <categories>
+        <category>Maths</category>
+      </categories>
+      <tags>
+        <tag>Maths</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Proof &amp; Solve Collection,Start!</title>
     <url>/2020/09/26/P&amp;SC/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><strong> “不积跬步无以至千里，不积小流无以成江海” </strong><br>特开此<strong> “集证（与解）——Proof &amp; Solve Collection” </strong>，一来积累所学，二来积累灵感，三来自勉钻研数学<br>可能是很水的题，若大佬前来观赏见谅！</p>
@@ -19,76 +35,11 @@
       </tags>
   </entry>
   <entry>
-    <title>集证0001</title>
-    <url>/2020/09/26/P&amp;SC0001/</url>
-    <content><![CDATA[<p><strong> P&amp;SC,Started from here！ </strong><br>今天先证明一个水题</p>
-<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>同一平面内，若两条直线垂直于同一条直线，那么这两条直线平行或为同一条直线。</p>
-<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p><strong> 如图 </strong><br><img src="/2020/09/26/P&SC0001/PSED20200926.png" alt><br>已知直线l1，直线l2、l3为两条直线且l1、l2分别⊥l1与点B、A<br>C为直线l2上一点且在l1上方，D为直线l3上一点且在l1下方<br><strong> 求证 </strong>：l2与l3为同一条直线或l2∥l3<br><strong> 证明 </strong>：<br>若A,B两点重合<br>∵“同一平面内过一点有且只有一条直线与一直直线垂直”<br>∴l2,l3为同一条直线<br>若A,B两点不重合<br>∵l2,l3⊥l1<br>∴∠CBA=∠BAD=90°<br>∴l2∥l3（原本 I.27）<br><strong> Q.E.D </strong></p>
-<p>注：这么好的定理，课内居然要写那么多过程QAQ</p>
-]]></content>
-      <categories>
-        <category>Maths</category>
-        <category>集证</category>
-        <category>几何</category>
-      </categories>
-      <tags>
-        <tag>Maths</tag>
-        <tag>集证</tag>
-        <tag>P&amp;SC</tag>
-        <tag>几何</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>集证0002</title>
-    <url>/2020/09/27/P&amp;SC0002/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>昨天写每日一证时发现《原本》中居然没有证一些基本命题<br>比方说用到的“过一点有且只有一条直线与已知直线垂直”<br>虽然这真的易证，但我有时间还是会将此类命题的证明并放在blog上方便阅览</p>
-<h2 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>将两条临边相等的四边形称为<strong>筝形</strong></p>
-<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>筝形中，总有一组对角相等</p>
-<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><h4 id="原证明"><a href="#原证明" class="headerlink" title="原证明"></a>原证明</h4><p><strong>如图</strong>：<br><img src="/2020/09/27/P&SC0002/PSED20200927.png" alt="图一"><br><strong>已知</strong>：四边形ABCD为筝形，AB=AD,CB=CD<br><strong>求证</strong>：∠B=∠D<br><strong>证明</strong>：连接BC<br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD+∠CBD=∠CDB+∠ADB<br>即∠ABC=∠CDA<br><del><strong>Q.E.D</strong></del></p>
-<h4 id="20200928补充证明"><a href="#20200928补充证明" class="headerlink" title="20200928补充证明"></a>20200928补充证明</h4><p>昨天的证明没有考虑到<strong>凹四边形</strong>啊……<br>补充一下<br><strong>如图</strong>：<br><img src="/2020/09/27/P&SC0002/geogebra-export.png" alt="图二"><br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD-∠CBD=∠CDB-∠ADB<br>即∠ABC=∠CDA<br><strong>Q.E.D.</strong></p>
-<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>接下来研究一段时间这种四边形<br>又是一道水题（逃</p>
-]]></content>
-      <categories>
-        <category>Maths</category>
-        <category>集证</category>
-        <category>几何</category>
-        <category>筝形</category>
-      </categories>
-      <tags>
-        <tag>Maths</tag>
-        <tag>集证</tag>
-        <tag>P&amp;SC</tag>
-        <tag>几何</tag>
-        <tag>筝形</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>P&amp;SC0003</title>
-    <url>/2020/09/28/P&amp;SC0003/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>发现这四边形原来有名字，叫<a href="https://baike.baidu.com/item/%E7%AD%9D%E5%BD%A2/9673238">筝形</a><br>于是我把昨天的“等邻边四边形”也都改了<br>今天继续研究“<a href="https://yanchiyueh.vercel.app/2020/09/27/PSED20200927/#%E5%AE%9A%E4%B9%89">筝形</a>”！</p>
-<h1 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h1><h2 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h2><p>筝形中，相等两角的端点所连成的对角线被另一条对角线所在直线垂直平分</p>
-<h2 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h2><p><strong>已知</strong>：四边形ABCD为筝形，AB=AD,CB=CD，AC为直线，连接BD<br><strong>求证</strong>：直线AD为线段BD中垂线<br><strong>证明如下</strong>：<br>∵AB=AD，CB=CD<br>∴A，C两点均在线段BD中垂线上<br>∴直线AC为线段BD中垂线<br>补充一下两张图：<br><img src="/2020/09/28/P&SC0003/geogebra-export.png" alt="图一"><br><img src="/2020/09/28/P&SC0003/geogebra-export2.png" alt="图二"><br><strong>Q.E.D.</strong>（逃</p>
-]]></content>
-      <categories>
-        <category>Maths</category>
-        <category>集证</category>
-        <category>几何</category>
-        <category>筝形</category>
-      </categories>
-      <tags>
-        <tag>Maths</tag>
-        <tag>集证</tag>
-        <tag>P&amp;SC</tag>
-        <tag>几何</tag>
-        <tag>筝形</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>P&amp;SC0004</title>
-    <url>/2020/09/30/P&amp;SC0004/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>昨天被OI大佬遊巨拉去写项目了（居然还有人找我这个蒟蒻写项目），就鸽了<del>咕咕咕</del><br>筝形暂时没想到有啥可以证的，先停更一段时间<br>接下来几天要出去玩，估计没法碰电脑，得停更了</p>
+    <title>集证AG001</title>
+    <url>/2020/09/30/P&amp;SCAG001/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>暂无筝形之命题，改集其它<br>后几日出游，无用电脑之机会，故停更</p>
 <h1 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h1><h2 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h2><p>Rt△的三个顶点关于各自对边的对称点所作的△的面积为该Rt△的3倍</p>
-<h2 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h2><p><strong>如图</strong>：<br><img src="/2020/09/30/P&SC0004/PSED20200930.png" alt><br><strong>已知</strong>:在Rt△ABO中，∠O=90°，A’,A关于BO对称，B,B’关于AO对称，O,O’关于AB对称<br><strong>求证</strong>:S△A’B’O’=3S△ABO<br><strong>证明如下</strong>:<br>连接A’O,OB’,OO’<br>线段OO’交线段AB于点C<br>易得△ABO≌△A’B’O<br>∴S△ABO=S△A’B’O<br>∴原命题2S△ABC=S△A’OO’+S△OO’B’<br>如图，以O为原点，OA为x轴正方向，OB为y轴正方向，建立平面直角坐标系<br>设A(a,0),B(0,b)<br>$∴AB:y=- \frac {b}{a} +b $</p>
+<h2 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h2><p><strong>如图</strong>：<br><img src="/2020/09/30/P&SCAG001/0.png" alt><br><strong>已知</strong>:在Rt△ABO中，∠O=90°，A’,A关于BO对称，B,B’关于AO对称，O,O’关于AB对称<br><strong>求证</strong>:S△A’B’O’=3S△ABO<br><strong>证明如下</strong>:<br>连接A’O,OB’,OO’<br>线段OO’交线段AB于点C<br>易得△ABO≌△A’B’O<br>∴S△ABO=S△A’B’O<br>∴原命题2S△ABC=S△A’OO’+S△OO’B’<br>如图，以O为原点，OA为x轴正方向，OB为y轴正方向，建立平面直角坐标系<br>设A(a,0),B(0,b)<br>$∴AB:y=- \frac {b}{a} +b $</p>
 <p>由对称及O(0,0)得:<br>$OO’: y= \frac ab x$</p>
 <p>$∴C(\frac{ab^2}{a^2+b^2},\frac{a^2b}{a^2+b^2})$</p>
 <p>$∴O’(\frac{2ab^2}{a^2+b^2},\frac{2a^2b}{a^2+b^2})$</p>
@@ -99,7 +50,7 @@
 <p>$=ab$</p>
 <p>$=2S△ABO$</p>
 <p><strong>Q.E.D</strong></p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>这是一道出自咱们学校作业的题<br><del>这都看不出来我果然太菜了</del><br>没看出几何解便建了个系了事<br>建系果然万能！</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>这是一道出自咱们学校作业的题<br>没看出几何解便建了个系了事<br><del>这都看不出几何解来我果然太菜了</del><br>建系果然万能！</p>
 ]]></content>
       <categories>
         <category>Maths</category>
@@ -119,19 +70,68 @@
       </tags>
   </entry>
   <entry>
-    <title>数学学科码</title>
-    <url>/2020/10/25/P&amp;SCcode/</url>
-    <content><![CDATA[<p>随需更新</p>
-<h1 id="几何学-Geometry"><a href="#几何学-Geometry" class="headerlink" title="几何学 Geometry"></a>几何学 Geometry</h1><p><strong>欧几里得平面几何</strong>：EP(Euclid Planimetry)<br><strong>欧几里得立体几何</strong>：ES(Euclid Solid-geometry)<br><strong>解析几何/坐标几何</strong>：AG(Analytic Geometry)</p>
-<h1 id="代数-Algebra"><a href="#代数-Algebra" class="headerlink" title="代数 Algebra"></a>代数 Algebra</h1><h2 id="初等代数-Elementary-Algebra"><a href="#初等代数-Elementary-Algebra" class="headerlink" title="初等代数 Elementary Algebra"></a>初等代数 Elementary Algebra</h2><p><strong>代数方程</strong>：AE(Algebraic Equation)<br><strong>不等式</strong>: IN(inequality)</p>
-<h1 id="微积分学-Calculus"><a href="#微积分学-Calculus" class="headerlink" title="微积分学 Calculus"></a>微积分学 Calculus</h1><p><strong>极限</strong>：LM（Limit）<br><strong>微分学</strong>：DC(Differential Calculus)<br><strong>积分学</strong>：IC(integral calculus)</p>
-<h1 id="分析学-Analysis"><a href="#分析学-Analysis" class="headerlink" title="分析学 Analysis"></a>分析学 Analysis</h1><p><strong>实分析</strong>：RA(Real Analysis) </p>
+    <title>集证EP001</title>
+    <url>/2020/09/26/P&amp;SCEP001/</url>
+    <content><![CDATA[<p><strong> P&amp;SC,Started from here！ </strong><br>今天先证明一个水题</p>
+<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>同一平面内，若两条直线垂直于同一条直线，那么这两条直线平行或为同一条直线。</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><p><strong> 如图 </strong><br><img src="/2020/09/26/P&SCEP001/0.png" alt><br>已知直线l1，直线l2、l3为两条直线且l1、l2分别⊥l1与点B、A<br>C为直线l2上一点且在l1上方，D为直线l3上一点且在l1下方<br><strong> 求证 </strong>：l2与l3为同一条直线或l2∥l3<br><strong> 证明 </strong>：<br>若A,B两点重合<br>∵“同一平面内过一点有且只有一条直线与一直直线垂直”<br>∴l2,l3为同一条直线<br>若A,B两点不重合<br>∵l2,l3⊥l1<br>∴∠CBA=∠BAD=90°<br>∴l2∥l3（原本 I.27）<br><strong> Q.E.D </strong></p>
+<p>注：这么好的定理，课内居然要写那么多过程QAQ</p>
 ]]></content>
       <categories>
         <category>Maths</category>
+        <category>集证</category>
+        <category>几何</category>
       </categories>
       <tags>
         <tag>Maths</tag>
+        <tag>集证</tag>
+        <tag>P&amp;SC</tag>
+        <tag>几何</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>集证EP002</title>
+    <url>/2020/09/27/P&amp;SCEP002/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>昨天写每日一证时发现《原本》中居然没有证一些基本命题<br>比方说用到的“过一点有且只有一条直线与已知直线垂直”<br>虽然这真的易证，但我有时间还是会将此类命题的证明并放在blog上方便阅览</p>
+<h2 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>将两条临边相等的四边形称为<strong>筝形</strong></p>
+<h3 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h3><p>筝形中，总有一组对角相等</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><h4 id="原证明"><a href="#原证明" class="headerlink" title="原证明"></a>原证明</h4><p><strong>如图</strong>：<br><img src="/2020/09/27/P&SCEP002/PSED20200927.png" alt="图一"><br><strong>已知</strong>：四边形ABCD为筝形，AB=AD,CB=CD<br><strong>求证</strong>：∠B=∠D<br><strong>证明</strong>：连接BC<br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD+∠CBD=∠CDB+∠ADB<br>即∠ABC=∠CDA<br><del><strong>Q.E.D</strong></del></p>
+<h4 id="20200928补充证明"><a href="#20200928补充证明" class="headerlink" title="20200928补充证明"></a>20200928补充证明</h4><p>昨天的证明没有考虑到<strong>凹四边形</strong>啊……<br>补充一下<br><strong>如图</strong>：<br><img src="/2020/09/27/P&SCEP002/geogebra-export.png" alt="图二"><br>∵AB=AD,CB=CD<br>∴△ABD，△BCD为等腰△<br>∴∠ABD=∠ADB,∠CBD=∠CDB<br>∠ABD-∠CBD=∠CDB-∠ADB<br>即∠ABC=∠CDA<br><strong>Q.E.D.</strong></p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>接下来研究一段时间这种四边形<br>又是一道水题（逃</p>
+]]></content>
+      <categories>
+        <category>Maths</category>
+        <category>集证</category>
+        <category>几何</category>
+        <category>筝形</category>
+      </categories>
+      <tags>
+        <tag>Maths</tag>
+        <tag>集证</tag>
+        <tag>P&amp;SC</tag>
+        <tag>几何</tag>
+        <tag>筝形</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>P&amp;SC0003</title>
+    <url>/2020/09/28/P&amp;SCEP003/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>发现这四边形原来有名字，叫<a href="https://baike.baidu.com/item/%E7%AD%9D%E5%BD%A2/9673238">筝形</a><br>于是我把昨天的“等邻边四边形”也都改了<br>今天继续研究“<a href="https://yanchiyueh.vercel.app/2020/09/27/PSED20200927/#%E5%AE%9A%E4%B9%89">筝形</a>”！</p>
+<h1 id="今天的每日一证"><a href="#今天的每日一证" class="headerlink" title="今天的每日一证"></a>今天的每日一证</h1><h2 id="命题"><a href="#命题" class="headerlink" title="命题"></a>命题</h2><p>筝形中，相等两角的端点所连成的对角线被另一条对角线所在直线垂直平分</p>
+<h2 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h2><p><strong>已知</strong>：四边形ABCD为筝形，AB=AD,CB=CD，AC为直线，连接BD<br><strong>求证</strong>：直线AD为线段BD中垂线<br><strong>证明如下</strong>：<br>∵AB=AD，CB=CD<br>∴A，C两点均在线段BD中垂线上<br>∴直线AC为线段BD中垂线<br>补充一下两张图：<br><img src="/2020/09/28/P&SCEP003/geogebra-export.png" alt="图一"><br><img src="/2020/09/28/P&SCEP003/geogebra-export2.png" alt="图二"><br><strong>Q.E.D.</strong>（逃</p>
+]]></content>
+      <categories>
+        <category>Maths</category>
+        <category>集证</category>
+        <category>几何</category>
+        <category>筝形</category>
+      </categories>
+      <tags>
+        <tag>Maths</tag>
+        <tag>集证</tag>
+        <tag>P&amp;SC</tag>
+        <tag>几何</tag>
+        <tag>筝形</tag>
       </tags>
   </entry>
   <entry>
